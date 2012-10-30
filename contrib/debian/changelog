@@ -1,0 +1,6 @@
+opentxs (0.85.b~precise2) precise; urgency=low
+
+  [ Mark Friedenbach ]
+    * Initial release of Ubuntu PPA based on Open-Transactions v0.85.b.
+
+ -- Mark Friedenbach <mark@monetize.io>  Wed, 31 Oct 2012 17:31:30 -0700
