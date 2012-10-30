@@ -1,0 +1,6 @@
+open-transactions (0.85.b~precise4) precise; urgency=low
+
+  [ Mark Friedenbach ]
+    * Initial release of Ubuntu PPA based on Open-Transactions v0.85.b.
+
+ -- Mark Friedenbach <mark@monetize.io>  Mon, 29 Oct 2012 15:37:24 -0700

@@ -1,0 +1,20 @@
+Source: open-transactions
+Section: utils
+Priority: extra
+Maintainer: Fellow Traveler <FellowTraveler@rayservers.net>
+Uploaders: Mark Friedenbach <mark@monetize.io>
+Build-Depends: debhelper, cdbs, autotools-dev, dh-autoreconf, pkg-config, chaiscript (>= 3.1.0), libboost-thread-dev (>= 1.25.0), libzmq-dev (>= 2.1.4), libmsgpack-dev, libprotobuf-dev (>= 2.4.1), libssl-dev (>= 1.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/FellowTraveler/Open-Transactions/
+Vcs-Git: git://github.com/FellowTraveler/Open-Transactions.git
+Vcs-Browser: https://github.com/FellowTraveler/Open-Transactions/
+
+Package: open-transactions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: The financial cryptography library
+ Open-Transactions allows users to issue and manipulate digital assets. Users may create many pseudonyms (public keys), each of which may own asset accounts of various types. Users can transfer digital assets securely between accounts (even a server cannot change balances or forge transactions.) Users can also operate “cash-only” (without accounts) for maximum anonymity.
+ .
+ Open-Transactions also implements higher-level, contract-based transactions such as payment plans and markets with trades. The markets on Open-Transactions support market orders, limit orders, fill-or-kill orders, day orders, stop orders, and stop limits, just like trading on a real market. OT also supports basket currencies.
+ .
+ All of this is accomplished in such a way that all parties are able to prove, at all times, which transactions have cleared and which instruments are authorized, without having to store their entire transaction history, but instead by merely keeping the last signed receipt.

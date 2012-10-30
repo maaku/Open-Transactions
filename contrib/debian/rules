@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+include /usr/share/cdbs/1/class/autotools.mk
+include /usr/share/cdbs/1/rules/autoreconf.mk
+
+export DEB_BUILD_HARDENING=1
+export DEB_CONFIGURE_SCRIPT_ENV += CXXFLAGS=" -std=gnu++11"
+export DEB_CONFIGURE_EXTRA_FLAGS += --enable-release
