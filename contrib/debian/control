@@ -3,7 +3,9 @@ Section: utils
 Priority: extra
 Maintainer: Fellow Traveler <FellowTraveler@rayservers.net>
 Uploaders: Mark Friedenbach <mark@monetize.io>
-Build-Depends: debhelper, cdbs, dh-autoreconf, autotools-dev, pkg-config, chaiscript (>= 3.1.0), libboost-thread-dev (>= 1.25.0), libzmq-dev (>= 2.1.4), libmsgpack-dev, libprotobuf-dev (>= 2.4.1), libssl-dev (>= 1.0.0)
+Build-Depends: debhelper, cdbs, dh-autoreconf,
+ autotools-dev, pkg-config, chaiscript (>= 3.1.0), libboost-thread-dev (>= 1.25.0), libzmq-dev (>= 2.1.4), libmsgpack-dev, libprotobuf-dev (>= 2.4.1), libssl-dev (>= 1.0.0),
+ openjdk-6-jdk, openjdk-6-source, libperl-dev, php5-dev, python-dev, ruby, ruby-dev
 Standards-Version: 3.9.3
 Homepage: https://github.com/FellowTraveler/Open-Transactions/
 Vcs-Git: git://github.com/FellowTraveler/Open-Transactions.git
@@ -13,7 +15,7 @@ Package: opentxs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: The financial cryptography library
- Open-Transactions allows users to issue and manipulate digital assets. Users may create many pseudonyms (public keys), each of which may own asset accounts of various types. Users can transfer digital assets securely between accounts (even a server cannot change balances or forge transactions.) Users can also operate “cash-only” (without accounts) for maximum anonymity.
+ Open-Transactions allows users to issue, exchange, market, trade and manage digital assets. Users may create many pseudonyms (public keys), each of which may own asset accounts of various types. Users can transfer digital assets securely between accounts (even a server cannot change balances or forge transactions.) Users can also operate “cash-only” (without accounts) for maximum privacy.
  .
  Open-Transactions also implements higher-level, contract-based transactions such as payment plans and markets with trades. The markets on Open-Transactions support market orders, limit orders, fill-or-kill orders, day orders, stop orders, and stop limits, just like trading on a real market. OT also supports basket currencies.
  .
