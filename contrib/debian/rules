@@ -10,4 +10,3 @@ export DEB_BUILD_HARDENING=1
 export DEB_CONFIGURE_EXTRA_FLAGS += --enable-release
 export DEB_CONFIGURE_EXTRA_FLAGS += --with-java
 export DEB_CONFIGURE_EXTRA_FLAGS += --with-php
-export DEB_CONFIGURE_EXTRA_FLAGS += --with-python
