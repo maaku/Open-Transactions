@@ -1,6 +1,6 @@
-opentxs (0.85.b~precise3) precise; urgency=low
+opentxs (0.85.b~precise4) precise; urgency=low
 
   [ Mark Friedenbach ]
     * Initial release of Ubuntu PPA based on Open-Transactions v0.85.b.
 
- -- Mark Friedenbach <mark@monetize.io>  Wed, 1 Nov 2012 15:30:01 -0700
+ -- Mark Friedenbach <mark@monetize.io>  Fri, 2 Nov 2012 00:58:38  -0700
